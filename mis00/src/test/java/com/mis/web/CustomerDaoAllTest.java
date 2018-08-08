@@ -32,7 +32,7 @@ public class CustomerDaoAllTest {
 		
 	}
 	
-//	@Test
+	@Test
 	public void testUpdateCustomer() throws Exception {
 		
 		CustomerVO vo = new CustomerVO("gildong", "홍길동", 1993, "율도국", "010-1234-5678", "GOLD");
@@ -40,7 +40,7 @@ public class CustomerDaoAllTest {
 		dao.updateCustomer(vo);
 	}
 	
-	@Test
+//	@Test
 	public void testDeleteCustomer() throws Exception {
 		
 		dao.deleteCustomer("gildong");
