@@ -51,7 +51,6 @@ public class BoardController {
 	@RequestMapping(value = "/read", method = RequestMethod.GET)
 	public void read(@RequestParam("bno") int bno, Model model) throws Exception {
 		
-		service.updateViewCnt(bno);
 		model.addAttribute(service.read(bno));
 		
 	}

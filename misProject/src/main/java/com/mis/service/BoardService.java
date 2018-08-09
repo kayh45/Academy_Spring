@@ -16,6 +16,4 @@ public interface BoardService {
 	
 	public List<BoardVO> listAll() throws Exception;
 	
-	public void updateViewCnt(int bno) throws Exception;
-	
 }
